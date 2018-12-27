@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule ^([^\.]*)$ _lay.php [NC]
+RewriteRule ^([^\.]+\.html)$ _lay.php [NC]
+RewriteRule ^([^\.]+\.php)$ _lay.php [NC]

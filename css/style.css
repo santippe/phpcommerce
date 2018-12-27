@@ -1,0 +1,38 @@
+#menu{
+    position: absolute;
+    top: 0px;
+    left: 0px; right: 0px; height: 100px;
+    background-color: #000;
+}
+#footer{
+    position: absolute;
+    bottom: 0px;
+    left: 0px; right: 0px; height: 100px;
+    background-color: #000;    
+}
+#screenplay{
+    position: absolute;
+    top: 100px;
+    bottom: 100px;
+    left: 0px; right: 0px;
+    width: 100%;
+}
+#screenplay>div{
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    filter: blur(6px);
+    transition : filter 1s;
+    transform: scale(1.2);    
+}
+#screenplay:hover>div {
+    filter:blur(0px);
+}
+#main{
+    min-height: 800px;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+}
